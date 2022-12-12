@@ -1,0 +1,40 @@
+{
+    "Top 5 Places to Visit in Different Seasons": [
+        {
+            "Spring": {
+                "1": "Cannon Beach, Oregon",
+                "2": "Sanibel & Captiva Islands, Florida",
+                "3": "Moab, Utah",
+                "4": "Texas Hill Country",
+                "5": "Palm Springs, California"
+            }
+        },
+        {
+            "Summer": {
+                "1": "Grand Canyon, Arizona",
+                "2": "Mackinac Island, Michigan",
+                "3": "Door County, Wisconsin",
+                "4": "Yellowstone National Park",
+                "5": "Cape Cod, Massachusetts"
+            }
+        },
+        {
+            "Fall": {
+                "1": "Cape Cod, MA",
+                "2": "Blue Ridge Mountains, NC",
+                "3": "Aspen, CO",
+                "4": "Upper Peninsula, MI",
+                "5": "White Mountains, NH"
+            }
+        },
+        {
+            "Winter": {
+                "1": "Boulder, Colorado",
+                "2": "Savannah GA",
+                "3": "Joshua Tree, CA",
+                "4": "Key West, Florida",
+                "5": "Leavenworth, WA"
+            }
+        }
+    ]
+}

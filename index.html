@@ -8,14 +8,22 @@
     <title>home</title>
     <link rel="stylesheet" type="text/css" href="files/style.css">
     <script src="https://unpkg.com/vue@3"></script>
-    <script src="https://github.com/hwbu/CS601_HW6_Wang.git/main.js" type="module">
+    <script src="files/main.js" type="module">
     </script>
 </head>
 
 <body>
+    <!--mouseover and mouseleave-->
     <div id="app">
-
+        <img alt="spring" class="spring":src="seasons[0]" @mouseover="updateSeason(3)" @mouseleave="resetSeason(0)"/>
+        <img alt="summer" class="summer":src="seasons[1]" @mouseover="updateSeason(0)" @mouseleave="resetSeason(1)"/>
+        <img alt="fall" class="fall":src="seasons[2]" @mouseover="updateSeason(1)" @mouseleave="resetSeason(2)"/>
+        <img alt="winter" class="winter":src="seasons[3]" @mouseover="updateSeason(2)" @mouseleave="resetSeason(3)"/>
     </div>
+    <!--fetch and load data-->
+    <hr>
+    <botton @click="loadData">Best Places to Visit</botton>
+    <div>{{places}}</div>
 </body>
 
 </html>
